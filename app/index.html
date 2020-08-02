@@ -16,16 +16,30 @@
             <div id="header-ctrl-btn">
                 <button type="button" id="small-btn" onclick="minApp()"></button>
                 <button type="button" id="close-btn" onclick="closeApp()"></button>
+
             </div>
         </div>
 
         <div id="content">
-            <button onclick="clickbtn()">点击</button>
+            <div id="content-image-div">
+                    <img src="./images/all-in-one@400.png" id="content-logo"/>
+            </div>
+            <div id="post-input-div">
+                <input id="post-input" placeholder="输入文章标题"/>
+            </div>
+            <div id="addition-div">
+                <button type="button" id="post-btn" onclick="getInputValue()">新建</button>
+
+                <button type="button" id="deploy-btn">部署</button>
+                <!-- <button type="button" id="backup-btn">备份</button> -->
+            </div>
         </div>
 
         <div id="footer">
-
+            <img src="./images/设置.png" id="footer-config" href="https://knowhere.icu"/>
+            <img src="./images/关于.png" id="footer-about"/>
         </div>
+
     </div>
 
 

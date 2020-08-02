@@ -8,7 +8,7 @@ var ipcMain = electron.ipcMain
 app.on('ready', () => {
     mainWindow = new BrowserWindow({
         width: 270,
-        height: 400,
+        height: 350,
         frame: false,
         resizable: false,
         transparent: true,
@@ -28,10 +28,6 @@ app.on('ready', () => {
         // mainWindow = null
         mainWindow.close();
     })
-    //监听关闭事件，把主窗口设置为null
-    // mainWindow.on('closed',()=>{
-    //     mainWindow = null
-    // })
 
     mainWindow.openDevTools();
 })
