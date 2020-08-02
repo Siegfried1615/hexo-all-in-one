@@ -1,0 +1,23 @@
+{
+  "name": "hexo-all-in-one",
+  "version": "0.1.0",
+  "description": "A tool to realize the automation from writing to deployment.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siegfried1615/hexo-all-in-one.git"
+  },
+  "author": "seigfried",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Siegfried1615/hexo-all-in-one/issues"
+  },
+  "homepage": "https://github.com/Siegfried1615/hexo-all-in-one#readme",
+  "devDependencies": {
+    "electron": "^9.1.2"
+  }
+}
